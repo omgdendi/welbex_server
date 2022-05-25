@@ -73,8 +73,6 @@ const authRouter = new Router();
  *         description: Missing fields
  *       409:
  *         description: User already exist
- *       400:
- *         description: Missing fields
  */
 
 authRouter.post('/registration', [
